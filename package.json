@@ -6,6 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "check": "eslint . && npx tsc",
     "start": "react-native start",
     "test": "jest"
   },
@@ -25,6 +26,7 @@
     "@react-native/eslint-config": "0.76.3",
     "@react-native/metro-config": "0.76.3",
     "@react-native/typescript-config": "0.76.3",
+    "@tsconfig/react-native": "^3.0.5",
     "@types/react": "^18.2.6",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
@@ -47,6 +49,6 @@
     "typescript": "5.0.4"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   }
 }

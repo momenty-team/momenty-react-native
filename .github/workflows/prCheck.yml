@@ -26,8 +26,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Check tsc
-        run: npm run tsc
-
-      - name: Check eslint
-        run: npm run lint
+      - name: check tsc & lint
+        run: npm run check
